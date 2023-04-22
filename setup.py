@@ -91,7 +91,12 @@ setup(
     package_data={"example": ["data/*.txt"]},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     include_package_data=True,
-    install_requires=["docopt", "schema", "setuptools >= 24.2.0"],
+    install_requires=[
+        "docopt",
+        "prometheus-client == 0.16.0",
+        "schema",
+        "setuptools >= 24.2.0",
+    ],
     extras_require={
         "test": [
             "coverage",
