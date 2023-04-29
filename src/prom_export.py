@@ -152,6 +152,7 @@ WEEWX_TO_PROMETHEUS_MAPPING = {
     'soilTemp3': ('weewx_soil_temperature_3', 'Soil temperature for sensor 3 (°F/°C)'),
     'soilTemp4': ('weewx_soil_temperature_4', 'Soil temperature for sensor 4 (°F/°C)'),
     'stormRain': ('weewx_storm_rain', 'Storm rain amount in inches or mm'),
+    'stormStart': ('weewx_storm_start', 'Storm start time in seconds since the epoch'),
     'sunrise': ('weewx_sunrise', 'Sunrise time in seconds since the epoch'),
     'sunset': ('weewx_sunset', 'Sunset time in seconds since the epoch'),
     'sunshine': ('weewx_sunshine', 'Sunshine in minutes'),
